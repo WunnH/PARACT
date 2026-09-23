@@ -1,0 +1,10 @@
+Metric,Count,Rate_percent,Mean,SD,Unit,Scope_n,Scope_unit,Definition
+Initial candidate trajectories,15000,,,,trajectories,30,hemispheres,Candidates before nominal and robust screening
+Nominal-feasible candidates,8131,,,,trajectories,30,hemispheres,Candidates satisfying baseline nominal safety thresholds
+Robust-feasible candidates,5940,,,,trajectories,30,hemispheres,Candidates satisfying the full uncertainty evaluation
+Pareto non-dominated candidates,241,,,,trajectories,30,hemispheres,Robust-feasible candidates retained after Pareto filtering
+Rejected after robust screening,2191,26.9,,,trajectories,30,hemispheres,"Fraction calculated relative to 8,131 nominal-feasible candidates"
+Hemispheres with a robust solution,30,,,,hemispheres,30,hemispheres,30/30 hemispheres retained at least one robust-feasible trajectory
+Optimization runtime,,,1.033,0.074,seconds per hemisphere,30,hemispheres,Mean and standard deviation
+Preprocessing runtime,,,159.676,14.246,seconds per case,15,cases,Mean and standard deviation
+
